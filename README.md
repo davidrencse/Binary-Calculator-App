@@ -1,6 +1,6 @@
 # Binary Calculator with React + Flask
 
-![Calculator Demo](demo.gif) 
+![2025-03-3107-10-58-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4e767fe9-4b42-45ab-9157-263200d706f7)
 
 A full-stack calculator application that evaluates mathematical expressions with PEMDAS support, featuring a React frontend and Flask backend. The app provides real-time calculation with proper error handling and a clean, responsive interface.
 
