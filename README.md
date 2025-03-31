@@ -27,3 +27,5 @@ The app is deployed on Render with:
 Frontend: Static site hosting
 
 Backend: Web service with Python environment
+
+Website: https://binary-calculator-app-1.onrender.com/
