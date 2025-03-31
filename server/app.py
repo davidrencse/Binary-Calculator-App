@@ -5,6 +5,8 @@ import re
 app = Flask(__name__)
 CORS(app)  # Enable cross-origin requests
 
+
+
 def safe_eval(expression):
     """Securely evaluate math expressions with PEMDAS support"""
     try:
@@ -28,5 +30,6 @@ def calculate():
     expression = data.get('expression', '')
     return jsonify(safe_eval(expression))
 
+# Add this to ensure Render compatibility
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=10000)  # Render requires host 0.0.0.0
