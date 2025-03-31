@@ -3,9 +3,14 @@ from flask_cors import CORS
 import re
 
 app = Flask(__name__)
-CORS(app)  # Enable cross-origin requests
-
-
+# Allow requests specifically from your frontend domain
+CORS(app, resources={
+    r"/calculate": {
+        "origins": ["https://binary-calculator-app-1.onrender.com"],
+        "methods": ["POST"],
+        "allow_headers": ["Content-Type"]
+    }
+})
 
 def safe_eval(expression):
     """Securely evaluate math expressions with PEMDAS support"""
