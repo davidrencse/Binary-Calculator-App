@@ -1,4 +1,4 @@
-# Binary Calculator with React + Flask
+# Decimal Calculator with React + Flask
 
 ![2025-03-3107-10-58-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4e767fe9-4b42-45ab-9157-263200d706f7)
 
